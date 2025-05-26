@@ -14,7 +14,7 @@ class CookieConfig {
 
 	/** This sets the `Samesite` flag on n8n auth cookie */
 	@Env('N8N_SAMESITE_COOKIE', samesiteSchema)
-	samesite: Samesite = 'lax';
+	samesite: Samesite = 'none';
 }
 
 @Config
